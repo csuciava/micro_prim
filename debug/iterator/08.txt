@@ -1,0 +1,15 @@
+let iterator = 0
+let sensul = "sus"
+while (true) {
+    if (iterator == 5) {
+        sensul = "jos"
+    } else if (iterator == 1) {
+        sensul = "sus"
+    }
+    if (sensul == "sus") {
+        iterator += 1
+    } else {
+        iterator += -1
+    }
+    basic.showNumber(iterator)
+}
